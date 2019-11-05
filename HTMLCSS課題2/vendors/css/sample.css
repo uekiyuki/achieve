@@ -1,0 +1,116 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+
+header {
+  background-color: #383838;
+  height: 50px;
+  font-size: 0.75rem;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header ul a {
+  margin: 0;
+  padding-top: 0;
+  list-style: none;
+}
+
+header li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 15px;
+}
+
+header ul :after {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.top_menu a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 0px;
+}
+
+.left {
+  float: left;
+  padding: 10px;
+}
+
+.right {
+  float: right;
+  padding: 5px;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.main-header img {  /* main画像（白い「Achieve」の文字の画像）部分の実装 */
+  width: 300px;
+  padding-top: 130px;
+}
+
+.function {
+  padding-top: 30px;
+  heght: 400px;
+  background-color: #C1C1C1;
+}
+
+.function-images {
+  display: inline-block;
+  padding-top: 50px;
+  padding-bottom: 100px:
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.function-image {
+  float: left;
+  padding: 30px;
+  padding-bottom: 50px;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.about {
+  height: 200px;
+  padding: 30px;
+}
+
+.footer {
+  padding-top: 50px;
+  background-color: #000033;
+  color: #FFFFFF;
+}
