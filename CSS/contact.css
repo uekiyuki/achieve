@@ -1,0 +1,175 @@
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.header {
+  background-color: #F5B4B3;
+  height: 50px;
+  font-size: 1.5rem;
+}
+
+.logo_image {
+  width: 110px;
+  margin: 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.top_menu li {
+  float: right;
+  width: auto;
+}
+
+ul.top_menu {
+  float: right;
+}
+
+.logo_image {
+  width: 110px;
+  float: left;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.top_menu li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+
+.top_menu li a:hover {
+  text-decoration: underline;
+}
+
+.image_area {
+  width: 100%;
+}
+
+.side_menu li {
+  background-color: #F5B4B3;
+  height: 6rem;
+  margin-bottom: 10px;
+}
+
+.side_menu li a {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 2rem;
+}
+
+.content {
+  float: left;
+  height: 200px;
+  background-color: #848484;
+}
+
+.side_menu li:hover {
+  opacity: 0.6;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.side_menu {
+  width: 300px;
+  float: left;
+}
+
+.wrapper {
+  margin-top: 10px;
+  padding-bottom: 100px;
+}
+
+.content {
+  width: 660px;
+  margin-left: 20px;
+  float: left;
+  font-size: 1.5rem;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  background-color: #4D4D4D;
+  display: table;
+}
+
+.footer p {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+  min-height: 100%;
+  position: relative;
+}
+
+.side_menu .point {
+  background-color: #FCECEC;
+}
+
+.side_menu .point a {
+  color: #4D4D4D;
+}
+
+.input_form {
+  width: 480px;
+  height: 20px
+}
+
+.input_form2 {
+  width: 480px;
+  height: 40px;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+.button {
+  text-align: center;
+  font-size: 3rem;
+  border-style: none;
+  padding-left: 20rem;
+}
+
+input[type="submit"] {
+  background-color: #7FFFD4;
+  color: #FFFFFF;
+}
+
+.contact th {
+  height: 7rem;
+  width: 150px;
+  text-align: right;
+}
+}
